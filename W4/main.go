@@ -3,11 +3,13 @@ import (
 "math"
 )
 
+
 func main() {
 // Function 1: Add two integers and return the result
 add := func(x, y int) int {
-return x + y
+return (x + y)
 }
+
 
 // Function 2: Subtract two integers and return the result
 subtract := func(x, y int) int {
