@@ -16,6 +16,18 @@ func main() {
 
     result := findGreaterNumber(num1, num2)
     fmt.Printf("The greater number between %d and %d is: %d\n", num1, num2, result)
+
+    res_1 := math.Max(0, -0)
+    res_2 := math.Max(-100, 100)
+    res_3 := math.Max(45.6, 8.9)
+    res_4 := math.Max(math.NaN(), 67)
+ 
+    // Displaying the result
+    fmt.Printf("Result 1: %.1f", res_1)
+    fmt.Printf("\nResult 2: %.1f", res_2)
+    fmt.Printf("\nResult 3: %.1f", res_3)
+    fmt.Printf("\nResult 4: %.1f", res_4)
+
 // Function 1: Add two integers and return the result
 add := func(x, y int) int {
 return (x + y)
