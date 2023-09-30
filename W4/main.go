@@ -2,9 +2,20 @@ import (
 "fmt"
 "math"
 )
-
+func findGreaterNumber(a, b int) int {
+    if a > b {
+        return a
+    } else {
+        return b
+    }
+}
 
 func main() {
+	num1 := 10
+    num2 := 20
+
+    result := findGreaterNumber(num1, num2)
+    fmt.Printf("The greater number between %d and %d is: %d\n", num1, num2, result)
 // Function 1: Add two integers and return the result
 add := func(x, y int) int {
 return (x + y)
